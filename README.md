@@ -22,12 +22,12 @@ As always, simplifying problems by making assumptions is a standard tool in any 
 1. All buildings have 6 dice in them.
 2. All buildings consist of 1, 2, or 3 stacks. These stacks are next to each other in a straight line.
 3. The text file containing the building to score is called building.txt, is located in a folder called datafiles, and is guaranteed to contain text representing a valid building.
-4. The building files have a very specific format - see the following Building File Format section.
-5. The only scoring you will need to do is scoring of the materials in the given building - you do not need to worry about the Blueprint Bonus mentioned at the bottom of page 3 of the rules, nor the Awards used in the game.
+4. The building files have a very specific format.
+5. The only scoring I need to do is scoring of the materials in the given building - Do not need to worry about the Blueprint Bonus mentioned at the bottom of page 3 of the rules, nor the Awards used in the game.
 6. All material scores, and the total score, will be at most 2 digits long.
 
 # Restrictions with the Solution (for best practice):
 1. A list of lists must be used to represent a building.
-2. The output file must be called scoring-results.txt, be saved in the datafiles folder present in the starting repository, and have a very specific format, which is covered in the section below.
-3.  Must have a main() function in a file called asg4.py. 
+2. The output file must be called scoring-results.txt, be saved in the datafiles folder present in the starting repository.
+3. 3.  Must have a main() function in a file called asg4.py. 
 
